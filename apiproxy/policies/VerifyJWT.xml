@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VerifyJWT name="VerifyJWT">
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <Algorithm>RS256</Algorithm>
+    <Source>request.queryparam.jwt</Source>
+    <PublicKey>
+        <Value ref="public.key"/>
+    </PublicKey>
+    <!-- assert these -->
+    <Subject>thesubject</Subject>
+    <Issuer>urn://unique-metro-bank-reference</Issuer>
+    <Audience>urn://unique-tpp-reference</Audience>
+    <CustomClaims>
+        <!-- assert these claims -->
+        <Claim name="foo">bar</Claim>
+    </CustomClaims>
+</VerifyJWT>

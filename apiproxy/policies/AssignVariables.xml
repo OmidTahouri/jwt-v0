@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AssignVariables">
+    <DisplayName>AssignVariables</DisplayName>
+    <AssignVariable>
+        <Name>private.key</Name>
+        <Value>-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: DES-EDE3-CBC,F07FFD4ED686B3B0
+
+qyd7OsHw4XHodkxynuYf6G6vC9y2YJukwtlrC11caJIFhD3aCXGkPUIx9Gwum6nh
+CQlNjlU0P+9Bgk6xK9nvaQQwR0reqdV6hZar8r7sIS1guWOEov82WfHVJqQ5Lg0u
+wCd7yrLMLvOvzxVC5LGmn1Gl2BBtfep9vI2keOHByeCS/ycnQHkDUEyupyP9cSHB
+V9bo/PEOl8X6WJLhg7iOlVU/liXvUsN8VfnYQp0OU9BXu75jweb16RSVn2/kaGPN
+a8VYDFWbBwYShDxoPa1FBZ9TGr2Buqj5tgEHHfTmDjlBebfoZibPRA2NciO54YRN
+QVHSpWqDc4GpwytHkLU1bxFJu5W38RVBkEYjdkyaNpcbC4d5bT/bIyf2EylXr7+j
+p18T2yO6BUUIqye84+he6vA1/b8kRRy7h84J2+K6CFn3sRlAEBkb6tE4dYLQ0A/l
+zgoUn5pbNjbu9J75891hNoKcOn1D7qKZL4chgUUu9ObU9arrKAnKYBhSxHcelD1K
+80BNA5kTEqXLUFo2I1yCaMcPAa7F2u8JRaxsdKSNSYw73gQZsiCLGfAUVHd10QoP
+uL+ZnEpXcjpha7i65KABrW9GrurrIbVGiAvx5SjYTrzj9VG9ur33sd9O7cETxquC
+JEvx+lgtvtT7mc4z7lLH1QazY3AAbUYYf3cCfxGoB9ian0mBSQxGoE+9YIC7+HPd
+lZq1VsRRbsyBlQBuxK+fvVOlWTyItfmcevshUTIGrkfP+kjkI6uAshyOxIK3XhZj
++Yd5a3jnZ7TVSTraAzLa7N7u2KMptLQDMs2L/UsIZmnzqPIcq5yBhzn9UujZuoEN
+eMKMc7reeuLzXbmbxz94sZh2l7Q4pDueAuWp3YPYn74xdHjxLsinNmvOOncrCx1X
+oOwIeDBFWs9DacV66GfV3Gh0DeN3zUcAV6dm0Elj/IzKHJft+C5Y6vFum+GHimC0
+0hLQAuTUACuBQqFRbpKzBEOJ1zJR5DQoueXGUyg1/E00noZoGBKyJcWZiJtGvTjJ
+mr2+kzxvTbp8QuFK9jssWX6sjQ8sfizCSul/9N/rAupWO1PMfxN3XuimxqlZoCSF
+/8FpOw6prcQbVVyGNXVlF1dDwdv6F1w7MiSVAdByvyYW++rQ8i1tA9iwCYSrqbCU
+I9HVeGQ8X6g4LV+JiokNxAOOY6NoAa9NljwH4NdXatrcm1Ubl/cXwGTRaymzUIEp
+B9s5G5EnoPFBJNiN526NJFpr8FvLj0H0WGw39OCCD29e5VPOqb/e5jjJXlyguAI4
+0U/VT1eTTMwKlzt33LmlJJi/rTXf7dgw17JBq+EOVk3J2y6pXagOkE0YcX+YjtIh
+021jI8AB1EIWUGrDPOWvWRNyIKy36J/cGudEWy0H7qFe261Ow+em+6rHSJjxulZd
+sn4sh8gJjCoDh897pD3oc5/8vH2pEyE7Act4LMAbD+AW18vtIw0dBJ0UG3p5G68Z
+tjRgL/2pFGX8SH1ACu6DdPaBmAmOobID/JWZ6zCpL6B846ykxWewvsXSLclFtphZ
+KRm3JJO33SlelpmqYCoAezv7rB48cnv9c15BEqTmgvxWlGJPFEUBDf23hwAU+0mH
+-----END RSA PRIVATE KEY-----</Value>
+    </AssignVariable>
+    <AssignVariable>
+        <Name>private.keyPassword</Name>
+        <Value>apigee123</Value>
+    </AssignVariable>
+    <AssignVariable>
+        <Name>private.keyId</Name>
+        <Value>2001</Value>
+    </AssignVariable>
+    <AssignVariable>
+        <Name>public.key</Name>
+        <Value>-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmzKbZjNh92MvcSkef13
+wFseL91ov+k3UNdDzBh+O21QeOHp3Vqt3j05oeF1Tx6ZrD/kajySw6d7O1FkjHT2
+bu2R4NB6v7bFJpjnGOOGoV7PKye3SZRipH3G0QMU0hJfCUX1Xnw7Zc8yxzpuesSJ
+YKlicG0K9DYukzwN47AePJ5uD2V08uKfzLtLHqcsHQ2rZL8Nr72Cs1kRMhI2eyhs
+60fTttW4t28vz4fuVLWLNqy1fy22ExhmQMR3uvXJvmjvUJI2CFy5hQTw8cIU4OwX
+uFyfCmgLdgT26mZxFrq2e9jnL2TkypAjHEqgdvGri8WJ99qIJvpbMt/8DZ9IRBqq
+VwIDAQAB
+-----END PUBLIC KEY-----</Value>
+    </AssignVariable>
+</AssignMessage>

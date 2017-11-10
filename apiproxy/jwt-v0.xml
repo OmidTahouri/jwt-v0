@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="jwt-v0">
+    <Basepaths>/jwt/v0</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1510314016636</CreatedAt>
+    <CreatedBy>omidt@google.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>jwt-v0</DisplayName>
+    <LastModifiedAt>1510314098654</LastModifiedAt>
+    <LastModifiedBy>omidt@google.com</LastModifiedBy>
+    <Policies>
+        <Policy>AssignVariables</Policy>
+        <Policy>GenerateJWT</Policy>
+        <Policy>SetResponse</Policy>
+        <Policy>VerifyJWT</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+    <validate>false</validate>
+</APIProxy>

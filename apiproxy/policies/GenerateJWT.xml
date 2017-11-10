@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenerateJWT name="GenerateJWT">
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <Algorithm>RS256</Algorithm>
+    <PrivateKey>
+        <Value ref="private.key"/>
+        <Password ref="private.keyPassword"/>
+        <Id ref="private.keyId"/>
+    </PrivateKey>
+    <Subject>thesubject</Subject>
+    <Issuer>urn://unique-metro-bank-reference</Issuer>
+    <Audience>urn://unique-tpp-reference</Audience>
+    <ExpiresIn>5m</ExpiresIn>
+    <Id/>
+    <CustomClaims>
+        <Claim name="foo">bar</Claim>
+    </CustomClaims>
+</GenerateJWT>
